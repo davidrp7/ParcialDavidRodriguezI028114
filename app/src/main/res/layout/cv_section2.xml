@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:elevation="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="20dp"
+    android:background="@android:color/white">
+
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="20dp"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Lanzamiento"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+        
+        <TextView
+            android:id="@+id/varfec"
+            android:layout_below="@id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diciembre 20, 2018"/>
+
+        <TextView
+            android:layout_below="@id/varfec"
+            android:id="@+id/tiempo"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tiempo"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vartiem"
+            android:layout_below="@id/tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 hora 34 minutos"/>
+
+
+
+        <TextView
+            android:id="@+id/direc"
+            android:layout_toRightOf="@id/fecha"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Director"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/vardic"
+            android:layout_below="@id/direc"
+            android:layout_toRightOf="@id/varfec"
+            android:layout_marginLeft="60dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Abraham Goner"/>
+
+        <TextView
+            android:id="@+id/punt"
+            android:layout_below="@id/vardic"
+            android:layout_toRightOf="@id/tiempo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Puntuacion"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="131dp"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_below="@id/punt"
+            android:layout_toRightOf="@id/vartiem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="346 Criticas"
+            android:layout_marginLeft="70dp"/>
+
+
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
