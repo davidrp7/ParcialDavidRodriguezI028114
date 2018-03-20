@@ -28,7 +28,7 @@
 
         <include layout="@layout/cv_section2"/>
         <include layout="@layout/cv_section3"/>
-        
+
     </LinearLayout>
 
 
